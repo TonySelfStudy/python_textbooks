@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form2</title>
+</head>
+<body>
+<h2>Example Form to Learn HTML GET/POST</h2>
+
+<P>Based on Text Fields Example from: <br>
+https://www.w3schools.com/html/html_forms.asp</P>
+<hr>
+<br>
+
+<form action="cgi-bin/form02.py" method="get">
+    <label for="text1">First Name</label><br>
+    <input type="text" id="text1" name="first" value="Larry"><br>
+    <label for="text2">First Name</label><br>
+    <input type="text" id="text2" name="second" value="David"><br><br>
+
+    Gender:<br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other" checked="checked">
+    <label for="other">Other</label><br>
+
+    Age:<br>
+    <input type="radio" id="adult" name="age" value="adult" checked="checked">
+    <label for="adult">Adult</label><br>
+    <input type="radio" id="minor" name="age" value="minor">
+    <label for="minor">Minor</label><br>
+
+    Hobbies:<br>
+    <input type="checkbox"  id="check1" name="check1" value="Golf">
+    <label for="check1">Golf</label><br>
+    <input type="checkbox"  id="check2" name="check2" value="Surfing">
+    <label for="check2">Surfing</label><br>
+    <input type="checkbox"  id="check3" name="check3" value="PH">
+    <label for="check3">PH</label><br>
+
+    <hr>
+    <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button,
+    the form-data will be sent to
+    a page called "/cgi-bin/form02.py".</p>
+
+</body>
+</html>

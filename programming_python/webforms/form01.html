@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form1</title>
+</head>
+<body>
+<h2>Example Form to Learn HTML GET/POST</h2>
+
+<P>Based on Text Fields Example from: <br>
+https://www.w3schools.com/html/html_forms.asp</P>
+<hr>
+<br>
+
+<form action="cgi-bin/form01.py" method="post">
+    <label for="text1">First Name</label><br>
+    <input type="text" id="text1" name="first" value="Larry"><br>
+    <label for="text2">First Name</label><br>
+    <input type="text" id="text2" name="second" value="David"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button,
+    the form-data will be sent to
+    a page called "/cgi-bin/form01.py".</p>
+
+</body>
+</html>

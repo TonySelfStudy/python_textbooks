@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:/Google Drive/My Documents/Code_Developement/python_work/learning_python/chap_01/badly.py", line 10, in <module>
+    inverse(0)
+  File "D:/Google Drive/My Documents/Code_Developement/python_work/learning_python/chap_01/badly.py", line 7, in inverse
+    return 1 / x
+ZeroDivisionError: division by zero

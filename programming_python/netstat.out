@@ -1,0 +1,473 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            Puget-89256:0          LISTENING
+  TCP    0.0.0.0:445            Puget-89256:0          LISTENING
+  TCP    0.0.0.0:1801           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:2020           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:2040           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:2103           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:2105           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:2107           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:2968           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:3445           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:5040           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:7680           Puget-89256:0          LISTENING
+  TCP    0.0.0.0:10001          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:17500          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49664          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49665          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49666          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49667          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49668          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49682          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:49736          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:52399          Puget-89256:0          LISTENING
+  TCP    0.0.0.0:53680          Puget-89256:0          LISTENING
+  TCP    127.0.0.1:80           Puget-89256:0          LISTENING
+  TCP    127.0.0.1:843          Puget-89256:0          LISTENING
+  TCP    127.0.0.1:5354         Puget-89256:0          LISTENING
+  TCP    127.0.0.1:5354         Puget-89256:49872      ESTABLISHED
+  TCP    127.0.0.1:5354         Puget-89256:49873      ESTABLISHED
+  TCP    127.0.0.1:6942         Puget-89256:0          LISTENING
+  TCP    127.0.0.1:8888         Puget-89256:0          LISTENING
+  TCP    127.0.0.1:8889         Puget-89256:0          LISTENING
+  TCP    127.0.0.1:15292        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:15393        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:16494        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:17600        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:27015        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:45623        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:45777        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:49872        Puget-89256:5354       ESTABLISHED
+  TCP    127.0.0.1:49873        Puget-89256:5354       ESTABLISHED
+  TCP    127.0.0.1:50067        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:50067        Puget-89256:50998      ESTABLISHED
+  TCP    127.0.0.1:50068        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:50086        Puget-89256:50087      ESTABLISHED
+  TCP    127.0.0.1:50087        Puget-89256:50086      ESTABLISHED
+  TCP    127.0.0.1:50093        Puget-89256:50094      ESTABLISHED
+  TCP    127.0.0.1:50094        Puget-89256:50093      ESTABLISHED
+  TCP    127.0.0.1:50985        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:50998        Puget-89256:50067      ESTABLISHED
+  TCP    127.0.0.1:55895        Puget-89256:55896      ESTABLISHED
+  TCP    127.0.0.1:55896        Puget-89256:55895      ESTABLISHED
+  TCP    127.0.0.1:55897        Puget-89256:55898      ESTABLISHED
+  TCP    127.0.0.1:55898        Puget-89256:55897      ESTABLISHED
+  TCP    127.0.0.1:55899        Puget-89256:55900      ESTABLISHED
+  TCP    127.0.0.1:55900        Puget-89256:55899      ESTABLISHED
+  TCP    127.0.0.1:55912        Puget-89256:55913      ESTABLISHED
+  TCP    127.0.0.1:55913        Puget-89256:55912      ESTABLISHED
+  TCP    127.0.0.1:55914        Puget-89256:55915      ESTABLISHED
+  TCP    127.0.0.1:55915        Puget-89256:55914      ESTABLISHED
+  TCP    127.0.0.1:55916        Puget-89256:55917      ESTABLISHED
+  TCP    127.0.0.1:55917        Puget-89256:55916      ESTABLISHED
+  TCP    127.0.0.1:55918        Puget-89256:55919      ESTABLISHED
+  TCP    127.0.0.1:55919        Puget-89256:55918      ESTABLISHED
+  TCP    127.0.0.1:55920        Puget-89256:55921      ESTABLISHED
+  TCP    127.0.0.1:55921        Puget-89256:55920      ESTABLISHED
+  TCP    127.0.0.1:55922        Puget-89256:55923      ESTABLISHED
+  TCP    127.0.0.1:55923        Puget-89256:55922      ESTABLISHED
+  TCP    127.0.0.1:55924        Puget-89256:55925      ESTABLISHED
+  TCP    127.0.0.1:55925        Puget-89256:55924      ESTABLISHED
+  TCP    127.0.0.1:55926        Puget-89256:55927      ESTABLISHED
+  TCP    127.0.0.1:55927        Puget-89256:55926      ESTABLISHED
+  TCP    127.0.0.1:55928        Puget-89256:55929      ESTABLISHED
+  TCP    127.0.0.1:55929        Puget-89256:55928      ESTABLISHED
+  TCP    127.0.0.1:55930        Puget-89256:55931      ESTABLISHED
+  TCP    127.0.0.1:55931        Puget-89256:55930      ESTABLISHED
+  TCP    127.0.0.1:55932        Puget-89256:55933      ESTABLISHED
+  TCP    127.0.0.1:55933        Puget-89256:55932      ESTABLISHED
+  TCP    127.0.0.1:55934        Puget-89256:55935      ESTABLISHED
+  TCP    127.0.0.1:55935        Puget-89256:55934      ESTABLISHED
+  TCP    127.0.0.1:55936        Puget-89256:55937      ESTABLISHED
+  TCP    127.0.0.1:55937        Puget-89256:55936      ESTABLISHED
+  TCP    127.0.0.1:55938        Puget-89256:55939      ESTABLISHED
+  TCP    127.0.0.1:55939        Puget-89256:55938      ESTABLISHED
+  TCP    127.0.0.1:55940        Puget-89256:55941      ESTABLISHED
+  TCP    127.0.0.1:55941        Puget-89256:55940      ESTABLISHED
+  TCP    127.0.0.1:55942        Puget-89256:55943      ESTABLISHED
+  TCP    127.0.0.1:55943        Puget-89256:55942      ESTABLISHED
+  TCP    127.0.0.1:56036        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:56036        Puget-89256:56088      ESTABLISHED
+  TCP    127.0.0.1:56037        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:56037        Puget-89256:56046      ESTABLISHED
+  TCP    127.0.0.1:56037        Puget-89256:56094      ESTABLISHED
+  TCP    127.0.0.1:56038        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:56038        Puget-89256:56097      ESTABLISHED
+  TCP    127.0.0.1:56039        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:56040        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:56040        Puget-89256:56043      ESTABLISHED
+  TCP    127.0.0.1:56040        Puget-89256:56091      ESTABLISHED
+  TCP    127.0.0.1:56041        Puget-89256:56042      ESTABLISHED
+  TCP    127.0.0.1:56042        Puget-89256:56041      ESTABLISHED
+  TCP    127.0.0.1:56043        Puget-89256:56040      ESTABLISHED
+  TCP    127.0.0.1:56044        Puget-89256:56045      ESTABLISHED
+  TCP    127.0.0.1:56045        Puget-89256:56044      ESTABLISHED
+  TCP    127.0.0.1:56046        Puget-89256:56037      ESTABLISHED
+  TCP    127.0.0.1:56053        Puget-89256:56054      ESTABLISHED
+  TCP    127.0.0.1:56054        Puget-89256:56053      ESTABLISHED
+  TCP    127.0.0.1:56055        Puget-89256:56056      ESTABLISHED
+  TCP    127.0.0.1:56056        Puget-89256:56055      ESTABLISHED
+  TCP    127.0.0.1:56057        Puget-89256:56058      ESTABLISHED
+  TCP    127.0.0.1:56058        Puget-89256:56057      ESTABLISHED
+  TCP    127.0.0.1:56059        Puget-89256:56060      ESTABLISHED
+  TCP    127.0.0.1:56060        Puget-89256:56059      ESTABLISHED
+  TCP    127.0.0.1:56061        Puget-89256:56062      ESTABLISHED
+  TCP    127.0.0.1:56062        Puget-89256:56061      ESTABLISHED
+  TCP    127.0.0.1:56063        Puget-89256:56064      ESTABLISHED
+  TCP    127.0.0.1:56064        Puget-89256:56063      ESTABLISHED
+  TCP    127.0.0.1:56065        Puget-89256:56066      ESTABLISHED
+  TCP    127.0.0.1:56066        Puget-89256:56065      ESTABLISHED
+  TCP    127.0.0.1:56067        Puget-89256:56068      ESTABLISHED
+  TCP    127.0.0.1:56068        Puget-89256:56067      ESTABLISHED
+  TCP    127.0.0.1:56069        Puget-89256:56070      ESTABLISHED
+  TCP    127.0.0.1:56070        Puget-89256:56069      ESTABLISHED
+  TCP    127.0.0.1:56071        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:56072        Puget-89256:56073      ESTABLISHED
+  TCP    127.0.0.1:56073        Puget-89256:56072      ESTABLISHED
+  TCP    127.0.0.1:56074        Puget-89256:56075      ESTABLISHED
+  TCP    127.0.0.1:56075        Puget-89256:56074      ESTABLISHED
+  TCP    127.0.0.1:56076        Puget-89256:56077      ESTABLISHED
+  TCP    127.0.0.1:56077        Puget-89256:56076      ESTABLISHED
+  TCP    127.0.0.1:56078        Puget-89256:56079      ESTABLISHED
+  TCP    127.0.0.1:56079        Puget-89256:56078      ESTABLISHED
+  TCP    127.0.0.1:56080        Puget-89256:56081      ESTABLISHED
+  TCP    127.0.0.1:56081        Puget-89256:56080      ESTABLISHED
+  TCP    127.0.0.1:56082        Puget-89256:56083      ESTABLISHED
+  TCP    127.0.0.1:56083        Puget-89256:56082      ESTABLISHED
+  TCP    127.0.0.1:56084        Puget-89256:56085      ESTABLISHED
+  TCP    127.0.0.1:56085        Puget-89256:56084      ESTABLISHED
+  TCP    127.0.0.1:56086        Puget-89256:56087      ESTABLISHED
+  TCP    127.0.0.1:56087        Puget-89256:56086      ESTABLISHED
+  TCP    127.0.0.1:56088        Puget-89256:56036      ESTABLISHED
+  TCP    127.0.0.1:56089        Puget-89256:56090      ESTABLISHED
+  TCP    127.0.0.1:56090        Puget-89256:56089      ESTABLISHED
+  TCP    127.0.0.1:56091        Puget-89256:56040      ESTABLISHED
+  TCP    127.0.0.1:56092        Puget-89256:56093      ESTABLISHED
+  TCP    127.0.0.1:56093        Puget-89256:56092      ESTABLISHED
+  TCP    127.0.0.1:56094        Puget-89256:56037      ESTABLISHED
+  TCP    127.0.0.1:56095        Puget-89256:56096      ESTABLISHED
+  TCP    127.0.0.1:56096        Puget-89256:56095      ESTABLISHED
+  TCP    127.0.0.1:56097        Puget-89256:56038      ESTABLISHED
+  TCP    127.0.0.1:61041        Puget-89256:61042      ESTABLISHED
+  TCP    127.0.0.1:61042        Puget-89256:61041      ESTABLISHED
+  TCP    127.0.0.1:61127        Puget-89256:61128      ESTABLISHED
+  TCP    127.0.0.1:61128        Puget-89256:61127      ESTABLISHED
+  TCP    127.0.0.1:61129        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:61129        Puget-89256:61183      ESTABLISHED
+  TCP    127.0.0.1:61130        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:61130        Puget-89256:61143      ESTABLISHED
+  TCP    127.0.0.1:61130        Puget-89256:61189      ESTABLISHED
+  TCP    127.0.0.1:61131        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:61131        Puget-89256:61192      ESTABLISHED
+  TCP    127.0.0.1:61132        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:61133        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:61133        Puget-89256:61140      ESTABLISHED
+  TCP    127.0.0.1:61133        Puget-89256:61186      ESTABLISHED
+  TCP    127.0.0.1:61134        Puget-89256:61135      ESTABLISHED
+  TCP    127.0.0.1:61135        Puget-89256:61134      ESTABLISHED
+  TCP    127.0.0.1:61136        Puget-89256:61137      ESTABLISHED
+  TCP    127.0.0.1:61137        Puget-89256:61136      ESTABLISHED
+  TCP    127.0.0.1:61138        Puget-89256:61139      ESTABLISHED
+  TCP    127.0.0.1:61139        Puget-89256:61138      ESTABLISHED
+  TCP    127.0.0.1:61140        Puget-89256:61133      ESTABLISHED
+  TCP    127.0.0.1:61141        Puget-89256:61142      ESTABLISHED
+  TCP    127.0.0.1:61142        Puget-89256:61141      ESTABLISHED
+  TCP    127.0.0.1:61143        Puget-89256:61130      ESTABLISHED
+  TCP    127.0.0.1:61148        Puget-89256:61149      ESTABLISHED
+  TCP    127.0.0.1:61149        Puget-89256:61148      ESTABLISHED
+  TCP    127.0.0.1:61150        Puget-89256:61151      ESTABLISHED
+  TCP    127.0.0.1:61151        Puget-89256:61150      ESTABLISHED
+  TCP    127.0.0.1:61152        Puget-89256:61153      ESTABLISHED
+  TCP    127.0.0.1:61153        Puget-89256:61152      ESTABLISHED
+  TCP    127.0.0.1:61154        Puget-89256:61155      ESTABLISHED
+  TCP    127.0.0.1:61155        Puget-89256:61154      ESTABLISHED
+  TCP    127.0.0.1:61156        Puget-89256:61157      ESTABLISHED
+  TCP    127.0.0.1:61157        Puget-89256:61156      ESTABLISHED
+  TCP    127.0.0.1:61158        Puget-89256:61159      ESTABLISHED
+  TCP    127.0.0.1:61159        Puget-89256:61158      ESTABLISHED
+  TCP    127.0.0.1:61160        Puget-89256:61161      ESTABLISHED
+  TCP    127.0.0.1:61161        Puget-89256:61160      ESTABLISHED
+  TCP    127.0.0.1:61162        Puget-89256:61163      ESTABLISHED
+  TCP    127.0.0.1:61163        Puget-89256:61162      ESTABLISHED
+  TCP    127.0.0.1:61164        Puget-89256:61165      ESTABLISHED
+  TCP    127.0.0.1:61165        Puget-89256:61164      ESTABLISHED
+  TCP    127.0.0.1:61166        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:61167        Puget-89256:61168      ESTABLISHED
+  TCP    127.0.0.1:61168        Puget-89256:61167      ESTABLISHED
+  TCP    127.0.0.1:61169        Puget-89256:61170      ESTABLISHED
+  TCP    127.0.0.1:61170        Puget-89256:61169      ESTABLISHED
+  TCP    127.0.0.1:61171        Puget-89256:61172      ESTABLISHED
+  TCP    127.0.0.1:61172        Puget-89256:61171      ESTABLISHED
+  TCP    127.0.0.1:61173        Puget-89256:61174      ESTABLISHED
+  TCP    127.0.0.1:61174        Puget-89256:61173      ESTABLISHED
+  TCP    127.0.0.1:61175        Puget-89256:61176      ESTABLISHED
+  TCP    127.0.0.1:61176        Puget-89256:61175      ESTABLISHED
+  TCP    127.0.0.1:61177        Puget-89256:61178      ESTABLISHED
+  TCP    127.0.0.1:61178        Puget-89256:61177      ESTABLISHED
+  TCP    127.0.0.1:61179        Puget-89256:61180      ESTABLISHED
+  TCP    127.0.0.1:61180        Puget-89256:61179      ESTABLISHED
+  TCP    127.0.0.1:61181        Puget-89256:61182      ESTABLISHED
+  TCP    127.0.0.1:61182        Puget-89256:61181      ESTABLISHED
+  TCP    127.0.0.1:61183        Puget-89256:61129      ESTABLISHED
+  TCP    127.0.0.1:61184        Puget-89256:61185      ESTABLISHED
+  TCP    127.0.0.1:61185        Puget-89256:61184      ESTABLISHED
+  TCP    127.0.0.1:61186        Puget-89256:61133      ESTABLISHED
+  TCP    127.0.0.1:61187        Puget-89256:61188      ESTABLISHED
+  TCP    127.0.0.1:61188        Puget-89256:61187      ESTABLISHED
+  TCP    127.0.0.1:61189        Puget-89256:61130      ESTABLISHED
+  TCP    127.0.0.1:61190        Puget-89256:61191      ESTABLISHED
+  TCP    127.0.0.1:61191        Puget-89256:61190      ESTABLISHED
+  TCP    127.0.0.1:61192        Puget-89256:61131      ESTABLISHED
+  TCP    127.0.0.1:61208        Puget-89256:61209      ESTABLISHED
+  TCP    127.0.0.1:61209        Puget-89256:61208      ESTABLISHED
+  TCP    127.0.0.1:61336        Puget-89256:61337      ESTABLISHED
+  TCP    127.0.0.1:61337        Puget-89256:61336      ESTABLISHED
+  TCP    127.0.0.1:61338        Puget-89256:61339      ESTABLISHED
+  TCP    127.0.0.1:61339        Puget-89256:61338      ESTABLISHED
+  TCP    127.0.0.1:61340        Puget-89256:61341      ESTABLISHED
+  TCP    127.0.0.1:61341        Puget-89256:61340      ESTABLISHED
+  TCP    127.0.0.1:61342        Puget-89256:61343      ESTABLISHED
+  TCP    127.0.0.1:61343        Puget-89256:61342      ESTABLISHED
+  TCP    127.0.0.1:61344        Puget-89256:61345      ESTABLISHED
+  TCP    127.0.0.1:61345        Puget-89256:61344      ESTABLISHED
+  TCP    127.0.0.1:63081        Puget-89256:63082      ESTABLISHED
+  TCP    127.0.0.1:63082        Puget-89256:63081      ESTABLISHED
+  TCP    127.0.0.1:63130        Puget-89256:63131      ESTABLISHED
+  TCP    127.0.0.1:63131        Puget-89256:63130      ESTABLISHED
+  TCP    127.0.0.1:63132        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:63132        Puget-89256:63186      ESTABLISHED
+  TCP    127.0.0.1:63133        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:63133        Puget-89256:63146      ESTABLISHED
+  TCP    127.0.0.1:63133        Puget-89256:63192      ESTABLISHED
+  TCP    127.0.0.1:63134        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:63134        Puget-89256:63195      ESTABLISHED
+  TCP    127.0.0.1:63135        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:63136        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:63136        Puget-89256:63143      ESTABLISHED
+  TCP    127.0.0.1:63136        Puget-89256:63189      ESTABLISHED
+  TCP    127.0.0.1:63137        Puget-89256:63138      ESTABLISHED
+  TCP    127.0.0.1:63138        Puget-89256:63137      ESTABLISHED
+  TCP    127.0.0.1:63139        Puget-89256:63140      ESTABLISHED
+  TCP    127.0.0.1:63140        Puget-89256:63139      ESTABLISHED
+  TCP    127.0.0.1:63141        Puget-89256:63142      ESTABLISHED
+  TCP    127.0.0.1:63142        Puget-89256:63141      ESTABLISHED
+  TCP    127.0.0.1:63143        Puget-89256:63136      ESTABLISHED
+  TCP    127.0.0.1:63144        Puget-89256:63145      ESTABLISHED
+  TCP    127.0.0.1:63145        Puget-89256:63144      ESTABLISHED
+  TCP    127.0.0.1:63146        Puget-89256:63133      ESTABLISHED
+  TCP    127.0.0.1:63151        Puget-89256:63152      ESTABLISHED
+  TCP    127.0.0.1:63152        Puget-89256:63151      ESTABLISHED
+  TCP    127.0.0.1:63153        Puget-89256:63154      ESTABLISHED
+  TCP    127.0.0.1:63154        Puget-89256:63153      ESTABLISHED
+  TCP    127.0.0.1:63155        Puget-89256:63156      ESTABLISHED
+  TCP    127.0.0.1:63156        Puget-89256:63155      ESTABLISHED
+  TCP    127.0.0.1:63157        Puget-89256:63158      ESTABLISHED
+  TCP    127.0.0.1:63158        Puget-89256:63157      ESTABLISHED
+  TCP    127.0.0.1:63159        Puget-89256:63160      ESTABLISHED
+  TCP    127.0.0.1:63160        Puget-89256:63159      ESTABLISHED
+  TCP    127.0.0.1:63161        Puget-89256:63162      ESTABLISHED
+  TCP    127.0.0.1:63162        Puget-89256:63161      ESTABLISHED
+  TCP    127.0.0.1:63163        Puget-89256:63164      ESTABLISHED
+  TCP    127.0.0.1:63164        Puget-89256:63163      ESTABLISHED
+  TCP    127.0.0.1:63165        Puget-89256:63166      ESTABLISHED
+  TCP    127.0.0.1:63166        Puget-89256:63165      ESTABLISHED
+  TCP    127.0.0.1:63167        Puget-89256:63168      ESTABLISHED
+  TCP    127.0.0.1:63168        Puget-89256:63167      ESTABLISHED
+  TCP    127.0.0.1:63169        Puget-89256:0          LISTENING
+  TCP    127.0.0.1:63170        Puget-89256:63171      ESTABLISHED
+  TCP    127.0.0.1:63171        Puget-89256:63170      ESTABLISHED
+  TCP    127.0.0.1:63172        Puget-89256:63173      ESTABLISHED
+  TCP    127.0.0.1:63173        Puget-89256:63172      ESTABLISHED
+  TCP    127.0.0.1:63174        Puget-89256:63175      ESTABLISHED
+  TCP    127.0.0.1:63175        Puget-89256:63174      ESTABLISHED
+  TCP    127.0.0.1:63176        Puget-89256:63177      ESTABLISHED
+  TCP    127.0.0.1:63177        Puget-89256:63176      ESTABLISHED
+  TCP    127.0.0.1:63178        Puget-89256:63179      ESTABLISHED
+  TCP    127.0.0.1:63179        Puget-89256:63178      ESTABLISHED
+  TCP    127.0.0.1:63180        Puget-89256:63181      ESTABLISHED
+  TCP    127.0.0.1:63181        Puget-89256:63180      ESTABLISHED
+  TCP    127.0.0.1:63182        Puget-89256:63183      ESTABLISHED
+  TCP    127.0.0.1:63183        Puget-89256:63182      ESTABLISHED
+  TCP    127.0.0.1:63184        Puget-89256:63185      ESTABLISHED
+  TCP    127.0.0.1:63185        Puget-89256:63184      ESTABLISHED
+  TCP    127.0.0.1:63186        Puget-89256:63132      ESTABLISHED
+  TCP    127.0.0.1:63187        Puget-89256:63188      ESTABLISHED
+  TCP    127.0.0.1:63188        Puget-89256:63187      ESTABLISHED
+  TCP    127.0.0.1:63189        Puget-89256:63136      ESTABLISHED
+  TCP    127.0.0.1:63190        Puget-89256:63191      ESTABLISHED
+  TCP    127.0.0.1:63191        Puget-89256:63190      ESTABLISHED
+  TCP    127.0.0.1:63192        Puget-89256:63133      ESTABLISHED
+  TCP    127.0.0.1:63193        Puget-89256:63194      ESTABLISHED
+  TCP    127.0.0.1:63194        Puget-89256:63193      ESTABLISHED
+  TCP    127.0.0.1:63195        Puget-89256:63134      ESTABLISHED
+  TCP    127.0.0.1:63316        Puget-89256:63317      ESTABLISHED
+  TCP    127.0.0.1:63317        Puget-89256:63316      ESTABLISHED
+  TCP    127.0.0.1:63318        Puget-89256:63319      ESTABLISHED
+  TCP    127.0.0.1:63319        Puget-89256:63318      ESTABLISHED
+  TCP    127.0.0.1:63320        Puget-89256:63321      ESTABLISHED
+  TCP    127.0.0.1:63321        Puget-89256:63320      ESTABLISHED
+  TCP    127.0.0.1:63322        Puget-89256:63323      ESTABLISHED
+  TCP    127.0.0.1:63323        Puget-89256:63322      ESTABLISHED
+  TCP    127.0.0.1:63324        Puget-89256:63325      ESTABLISHED
+  TCP    127.0.0.1:63325        Puget-89256:63324      ESTABLISHED
+  TCP    127.0.0.1:63326        Puget-89256:63327      ESTABLISHED
+  TCP    127.0.0.1:63327        Puget-89256:63326      ESTABLISHED
+  TCP    127.0.0.1:63342        Puget-89256:0          LISTENING
+  TCP    192.168.1.68:139       Puget-89256:0          LISTENING
+  TCP    192.168.1.68:49828     17.151.2.101:https     CLOSE_WAIT
+  TCP    192.168.1.68:49874     17.151.2.101:https     CLOSE_WAIT
+  TCP    192.168.1.68:53426     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.1.68:53570     151.101.193.69:https   ESTABLISHED
+  TCP    192.168.1.68:53571     151.101.193.69:https   ESTABLISHED
+  TCP    192.168.1.68:53574     151.101.188.193:https  ESTABLISHED
+  TCP    192.168.1.68:53587     cdn-185-199-111-153:https  ESTABLISHED
+  TCP    192.168.1.68:53588     151.101.188.233:https  ESTABLISHED
+  TCP    192.168.1.68:53593     151.101.188.233:https  ESTABLISHED
+  TCP    192.168.1.68:53611     ec2-34-225-70-191:https  ESTABLISHED
+  TCP    192.168.1.68:53640     151.101.189.140:https  ESTABLISHED
+  TCP    192.168.1.68:53644     104.244.42.3:https     ESTABLISHED
+  TCP    192.168.1.68:53648     151.101.1.140:https    ESTABLISHED
+  TCP    192.168.1.68:53649     104.244.42.69:https    ESTABLISHED
+  TCP    192.168.1.68:53660     52.98.18.18:https      ESTABLISHED
+  TCP    192.168.1.68:53679     homeportal:http        ESTABLISHED
+  TCP    192.168.1.68:53767     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.1.68:53921     server-13-35-121-6:https  ESTABLISHED
+  TCP    192.168.1.68:53924     server-13-227-73-54:https  ESTABLISHED
+  TCP    192.168.1.68:53925     85:https               ESTABLISHED
+  TCP    192.168.1.68:53926     dfw25s26-in-f6:https   ESTABLISHED
+  TCP    192.168.1.68:53928     65.8.168.84:https      ESTABLISHED
+  TCP    192.168.1.68:53929     206.17.25.188:https    ESTABLISHED
+  TCP    192.168.1.68:53930     server-99-84-233-95:https  ESTABLISHED
+  TCP    192.168.1.68:53931     33:https               ESTABLISHED
+  TCP    192.168.1.68:53935     dfw28s05-in-f6:https   ESTABLISHED
+  TCP    192.168.1.68:53937     ec2-52-89-121-50:https  ESTABLISHED
+  TCP    192.168.1.68:53938     98:https               ESTABLISHED
+  TCP    192.168.1.68:53972     65.8.17.172:https      ESTABLISHED
+  TCP    192.168.1.68:54007     SonosZP:1400           TIME_WAIT
+  TCP    192.168.1.68:54049     SonosZP:1400           TIME_WAIT
+  TCP    192.168.1.68:54061     52.109.20.16:https     TIME_WAIT
+  TCP    192.168.1.68:55409     52.242.211.89:https    ESTABLISHED
+  TCP    192.168.1.68:55448     ec2-54-208-208-3:https  ESTABLISHED
+  TCP    192.168.1.68:55450     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.1.68:57933     17.57.144.22:5223      ESTABLISHED
+  TCP    [::]:135               Puget-89256:0          LISTENING
+  TCP    [::]:445               Puget-89256:0          LISTENING
+  TCP    [::]:1801              Puget-89256:0          LISTENING
+  TCP    [::]:2103              Puget-89256:0          LISTENING
+  TCP    [::]:2105              Puget-89256:0          LISTENING
+  TCP    [::]:2107              Puget-89256:0          LISTENING
+  TCP    [::]:3445              Puget-89256:0          LISTENING
+  TCP    [::]:7680              Puget-89256:0          LISTENING
+  TCP    [::]:17500             Puget-89256:0          LISTENING
+  TCP    [::]:49664             Puget-89256:0          LISTENING
+  TCP    [::]:49665             Puget-89256:0          LISTENING
+  TCP    [::]:49666             Puget-89256:0          LISTENING
+  TCP    [::]:49667             Puget-89256:0          LISTENING
+  TCP    [::]:49668             Puget-89256:0          LISTENING
+  TCP    [::]:49682             Puget-89256:0          LISTENING
+  TCP    [::]:49736             Puget-89256:0          LISTENING
+  TCP    [::]:52399             Puget-89256:0          LISTENING
+  TCP    [::]:53680             Puget-89256:0          LISTENING
+  TCP    [::1]:8888             Puget-89256:0          LISTENING
+  TCP    [::1]:8889             Puget-89256:0          LISTENING
+  TCP    [::1]:8889             Puget-89256:61144      ESTABLISHED
+  TCP    [::1]:61144            Puget-89256:8889       ESTABLISHED
+  TCP    [2600:1700:7260:7870:19e8:dfde:6822:f8cc]:49829  [2620:149:a43:209::9]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:19e8:dfde:6822:f8cc]:49875  [2620:149:a43:207::7]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:19e8:dfde:6822:f8cc]:50218  g2600-1406-0040-05ab-0000-0000-0000-4106:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:19e8:dfde:6822:f8cc]:50219  g2600-1406-0040-05ab-0000-0000-0000-4106:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:19e8:dfde:6822:f8cc]:56883  [2620:149:a43:209::e]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:9d91:c2e7:4863:f2a7]:51409  dfw25s16-in-x0d:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:49957  [2620:149:a43:209::e]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:52794  dfw25s25-in-x0d:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:52966  [2a04:4e42:2d::323]:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53298  [2607:f8b0:4023:1002::5f]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53585  [2a04:4e42:2d::621]:https  TIME_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53590  [2a04:4e42:2d::720]:https  TIME_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53641  [2603:1036:307:48e0::2]:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53917  [2606:4700:10::6816:34fc]:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53922  [2600:9000:21c4:4200:10:ee95:8e40:93a1]:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53927  g2600-1406-4400-02a8-0000-0000-0000-11a6:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53940  [2600:9000:20a6:ea00:19:fc2c:a140:93a1]:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:53987  dfw25s13-in-x03:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54089  dfw25s16-in-x0a:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54090  dfw25s12-in-x0a:https  TIME_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54091  dfw25s16-in-x0a:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54145  dfw25s16-in-x0a:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54148  dfw25s12-in-x0a:https  TIME_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54163  dfw25s12-in-x0a:https  TIME_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:54547  dfw06s38-in-x0d:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:55064  dfw28s05-in-x0a:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:55065  [2607:f8b0:4023:1002::54]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:55971  g2600-1406-0040-0588-0000-0000-0000-0057:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:59243  [2607:f8b0:4023:1006::bc]:5228  ESTABLISHED
+  TCP    [2600:1700:7260:7870:e474:e645:6363:3429]:64549  dfw25s26-in-x0a:https  ESTABLISHED
+  TCP    [2600:1700:7260:7870:f508:13a7:d31f:5108]:51577  [2620:149:a43:206::e]:https  CLOSE_WAIT
+  TCP    [2600:1700:7260:7870:f508:13a7:d31f:5108]:59300  dfw28s27-in-x0a:https  CLOSE_WAIT
+  UDP    0.0.0.0:500            *:*                    
+  UDP    0.0.0.0:2020           *:*                    
+  UDP    0.0.0.0:2968           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:4500           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:53534          *:*                    
+  UDP    0.0.0.0:59083          *:*                    
+  UDP    0.0.0.0:59240          *:*                    
+  UDP    0.0.0.0:62876          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:49346        *:*                    
+  UDP    127.0.0.1:53598        *:*                    
+  UDP    127.0.0.1:53599        *:*                    
+  UDP    127.0.0.1:59242        *:*                    
+  UDP    127.0.0.1:59783        *:*                    
+  UDP    127.0.0.1:59784        *:*                    
+  UDP    127.0.0.1:59878        *:*                    
+  UDP    127.0.0.1:59879        *:*                    
+  UDP    127.0.0.1:60688        *:*                    
+  UDP    127.0.0.1:60689        *:*                    
+  UDP    127.0.0.1:60902        *:*                    
+  UDP    127.0.0.1:60903        *:*                    
+  UDP    127.0.0.1:61030        *:*                    
+  UDP    192.168.1.68:137       *:*                    
+  UDP    192.168.1.68:138       *:*                    
+  UDP    192.168.1.68:1900      *:*                    
+  UDP    192.168.1.68:2177      *:*                    
+  UDP    192.168.1.68:2968      *:*                    
+  UDP    192.168.1.68:5353      *:*                    
+  UDP    192.168.1.68:49345     *:*                    
+  UDP    [::]:500               *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:4500              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:53534             *:*                    
+  UDP    [::]:59084             *:*                    
+  UDP    [::]:59241             *:*                    
+  UDP    [::]:62876             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:49344            *:*                    
+  UDP    [2600:1700:7260:7870::4df]:2177  *:*                    
+  UDP    [2600:1700:7260:7870:19e8:dfde:6822:f8cc]:2177  *:*                    
+  UDP    [2600:1700:7260:7870:9d91:c2e7:4863:f2a7]:2177  *:*                    
+  UDP    [2600:1700:7260:7870:e474:e645:6363:3429]:2177  *:*                    
+  UDP    [2600:1700:7260:7870:e97e:b3a0:c74c:f084]:2177  *:*                    
+  UDP    [2600:1700:7260:7870:f508:13a7:d31f:5108]:2177  *:*                    
+  UDP    [2600:1700:7260:7870:f87b:e9b1:dbfe:ef41]:2177  *:*                    
+  UDP    [fe80::f87b:e9b1:dbfe:ef41%12]:1900  *:*                    
+  UDP    [fe80::f87b:e9b1:dbfe:ef41%12]:2177  *:*                    
+  UDP    [fe80::f87b:e9b1:dbfe:ef41%12]:49343  *:*                    
