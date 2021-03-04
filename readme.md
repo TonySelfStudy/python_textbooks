@@ -18,6 +18,11 @@ Note that projects associated with specific topics are located in
 their related repositories.  For instance, code/projects 
 associated with the book _Pandas for Everyone_ 
 are in the  [Scipy](https://github.com/TonySelfStudy/scipy) repository.
+
+## Library
+If buying and reading python books was a sport ... I might be winning :)
+![Image](tonys_textbooks.jpg)
+
 ## License
 
 Distributed under the *** License.  
