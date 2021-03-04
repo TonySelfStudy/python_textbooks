@@ -1,8 +1,8 @@
 ## Project Summary
-*Projects and Exercises Inspired by Key Python Textbooks*  
+*Projects and Exercises Inspired by Key Python Textbooks.*  
 
-Based on topics explored in my Python reference tomes,
-a variety of follow alongs and related topics are explored.
+Based on examples and code challenges in Python reference tomes,
+a variety of key python language topics are explored.
 
 Primary reference documents in my library include:
 * [Python Crash Course](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280)
@@ -14,13 +14,17 @@ Topics include:
 * Kitchen sinks
 * Most everything else :)
 
-Note that projects associated with specific topics are located in
-their related repositories.  For instance, code/projects 
-associated with the book _Pandas for Everyone_ 
-are in the  [Scipy](https://github.com/TonySelfStudy/scipy) repository.
+Projects in this repository tend to be about the python language in general. 
+Non-general language books are likely discussed in other repositories.
+For example, projects related to _Pandas for Everyone_ 
+are covered in the [Scipy](https://github.com/TonySelfStudy/scipy) repository.
+
+Note that most of the code in this repository is scratch code used to gain
+proficiency and arrive at proof-of-concepts.
 
 ## Library
-If buying and reading python books was a sport ... I might be winning :)
+If buying and reading python books was a sport ... I might be winning :)  
+
 ![Image](tonys_textbooks.jpg)
 
 ## License
