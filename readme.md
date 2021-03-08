@@ -25,7 +25,7 @@ proficiency and arrive at proof-of-concepts.
 ## Library
 If buying and reading python books was a sport ... I might be winning :)  
 
-![Image](tonys_textbooks.jpg)
+![Image](graphics/tonys_textbooks.jpg)
 
 ## License
 
