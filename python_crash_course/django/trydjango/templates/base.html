@@ -5,8 +5,22 @@
     <title>Coding for entrepreneurs is doing Try Django</title>
 </head>
 <body>
+{% include 'navbar.html' %}
+
+{% block content %}
+i'm the block content1
+{% endblock content %}
+
+{% comment %}
 {% block content1 %}
 i'm the block content1
 {% endblock content1 %}
+
+
+{% block content2 %}
+i'm the block content2
+{% endblock content2 %}
+{% endcomment %}
+
 </body>
 </html>

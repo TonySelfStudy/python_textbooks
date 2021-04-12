@@ -6,4 +6,26 @@
 request.user = {{ request.user }}
 <p>I'm a template Yo!</p>
 
+<p>
+    Using context, string --> my_text: {{ my_text }}
+</p>
+
+<p>
+    Using context, number --> my_number: {{ my_number }}
+</p>
+
+<p>
+    Using context, list --> my_list: {{ my_list }}
+</p>
+
+<p>
+    Using context, list with for loop my_list:
+</p>
+
+<ul>
+{% for i in my_list %}
+    <li>{{forloop.counter}} - {{i}}</li>
+{% endfor %}
+</ul>
+
 {% endblock content1 %}

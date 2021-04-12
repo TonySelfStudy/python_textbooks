@@ -7,3 +7,16 @@ request.user = {{ request.user }}
 <p>I'm a template Yo!</p>
 
 {% endblock content1 %}
+
+{% block content2 %}
+
+<h1>Contacts 1 can use content2</h1>
+
+{% endblock content2 %}
+
+{% block content3 %}
+
+<h1>content3 is not defined in base.html</h1>
+
+{% endblock content3 %}
+

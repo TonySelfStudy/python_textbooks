@@ -16,7 +16,12 @@ def contact_view(request, *args, **kwargs):
 def about_view(request, *args, **kwargs):
     print(f'in pages.about_view()')
     print(request, args, kwargs)
-    return render(request, 'about1.html', {})
+    my_context = {
+        "my_text": "This is about us",
+        "my_number": 123,
+        "my_list": [123, 234, 3.14, 458, 505.50],
+    }
+    return render(request, 'about1.html', my_context)
 
 def social_view(request, *args, **kwargs):
     print(f'in pages.social_view()')
