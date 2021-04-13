@@ -20,7 +20,7 @@ import sys
 # sys.path.append("..")
 from pages.views import home_view, contact_view, about_view, social_view
 from products.views import product_detail_view, product_create_view, \
-    product_post, dynamic_lookup_view, product_delete_view
+    product_post, dynamic_lookup_view, product_delete_view, product_list
 
 urlpatterns = [
     path('', home_view, name='blank'),
@@ -29,7 +29,8 @@ urlpatterns = [
     path('about/', about_view, name='about'),
     path('social/', social_view, name='social'),
     path('product/', product_detail_view),
-    path('product/<int:product_id>', dynamic_lookup_view),
+    path('product_list/', product_list),
+    path('product/<int:product_id>', dynamic_lookup_view, name='dynamic_lookup'),
     path('product/<int:product_id>/delete', product_delete_view,
          name='product_delete'),
     path('create/', product_create_view),

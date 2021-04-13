@@ -3,12 +3,21 @@ from .models import Product
 from .forms import ProductForm, RawProductForm
 
 
+def product_list(request):
+    print(f'in product_list()')
+    queryset = Product.objects.all()
+    context = {
+        "object_list": queryset
+    }
+    return render(request, "products/product_list.html", context)
+
+
 def product_delete_view(request, product_id):
     print(f'in product_delete_view()')
     obj = get_object_or_404(Product, id=product_id)
     if request.method == "POST":
         obj.delete()
-        return redirect('/')
+        return redirect('/product_list')
     context = {
         "object": obj,
         "product_id": product_id
