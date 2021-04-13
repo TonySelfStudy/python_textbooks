@@ -24,7 +24,7 @@ class Product(models.Model):
 
         # Method # 2 use reverse to get view name
         kwargs = {'product_id': self.id}
-        url2 = reverse('dynamic_lookup', kwargs=kwargs)
+        url2 = reverse('products:dynamic_lookup', kwargs=kwargs)
 
         # print(f'{url1=}')
         # print(f'{url2=}')

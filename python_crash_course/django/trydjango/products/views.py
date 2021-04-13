@@ -17,11 +17,15 @@ def product_delete_view(request, product_id):
     obj = get_object_or_404(Product, id=product_id)
     if request.method == "POST":
         obj.delete()
-        return redirect('/product_list')
+        return redirect('/products/')
     context = {
         "object": obj,
         "product_id": product_id
     }
+    print(f'{context=}')
+    print(f'{obj.get_absolute_url()=}')
+
+
     return render(request, "products/product_delete.html", context)
 
 

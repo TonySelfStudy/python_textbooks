@@ -5,8 +5,14 @@
 <form method="POST">
   {% csrf_token %}
   <h1>Do you want to delete the product "{{ object.title }}"? </h1>
-  <p><input type='submit' value='Yes' /> <a href="../{{ product_id }}">Cancel</a></p>
+  <p><input type='submit' value='Yes' />
+    <a href="{{ object.get_absolute_url }}">Cancel</a></p>
 </form>
+
+<p>
+  <a href="{% url 'products:product_list' %}">Return to Project List</a></p>
+</p>
+
 
 {% endblock content %}
 
