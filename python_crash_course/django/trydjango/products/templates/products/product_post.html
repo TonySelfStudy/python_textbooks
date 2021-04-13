@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>fielding a post request </h1>
+
+<ul>
+    {% for key, val in my_obj.items %}
+    <li>{{key}}: {{val}}</li>
+    {% endfor %}
+
+</ul>
+
+{% endblock content %}
+
+
+
+
