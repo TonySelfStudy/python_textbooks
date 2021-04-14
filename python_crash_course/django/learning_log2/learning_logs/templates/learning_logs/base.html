@@ -5,7 +5,10 @@
     <title>Learning Log From Python Crash Course</title>
 </head>
 <body>
-<p>This line from base.html</p>
+
+<a href="{% url 'learning_logs:view_index' %}">Home</a> -
+<a href="{% url 'learning_logs:view_topics' %}">Topics</a>
+
 {% block content %}
 {% endblock content %}
 </body>

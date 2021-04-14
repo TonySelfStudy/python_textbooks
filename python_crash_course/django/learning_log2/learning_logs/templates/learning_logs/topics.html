@@ -1,10 +1,22 @@
 {% extends 'learning_logs/base.html' %}
 
 {% block content %}
-<p>I'm in the topics.html block content</p>
+<p>Available Topics</p>
 <ul>
     {% for topic in topics %}
-    <li>{{ topic.text }}</li>
+        <li><a href="{% url 'learning_logs:view_topic' topic.id %}">
+            {{ topic.text }}</a></li>
+    {% empty %}
+        No topics defined yet ...
     {% endfor %}
 </ul>
+
+<p>
+    <a href="{% url 'learning_logs:create_topic' %}">
+                Create New Topic</a></li>
+</p>
+
+<p> <a href="{% url 'learning_logs:create_entry' %}">
+                Create New Entry</a> </p>
+
 {% endblock content %}
