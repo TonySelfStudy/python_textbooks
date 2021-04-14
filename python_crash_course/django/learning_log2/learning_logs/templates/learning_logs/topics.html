@@ -1,0 +1,10 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block content %}
+<p>I'm in the topics.html block content</p>
+<ul>
+    {% for topic in topics %}
+    <li>{{ topic.text }}</li>
+    {% endfor %}
+</ul>
+{% endblock content %}
