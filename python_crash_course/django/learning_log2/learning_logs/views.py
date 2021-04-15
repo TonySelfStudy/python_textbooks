@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
+from django.http import Http404
 
 from .models import Topic, Entry
 from .forms import TopicForm, EntryForm
@@ -13,7 +14,8 @@ def index(request):
 def view_topics(request):
     print(f'in view_topics()')
     # queryset = Topic.objects.all()
-    queryset = Topic.objects.order_by('date_added')
+    # queryset = Topic.objects.order_by('date_added')
+    queryset = Topic.objects.filter(owner=request.user).order_by('date_added')
 
     context = {
         "topics": queryset
@@ -25,6 +27,9 @@ def view_topic(request, topic_id):
     print(f'in view_topic()')
 
     topic = Topic.objects.get(id=topic_id)
+    if topic.owner != request.user:
+        raise Http404
+
     entries = topic.entry_set.order_by('-date_added')
 
     context = {
@@ -32,6 +37,26 @@ def view_topic(request, topic_id):
         "entries": entries
     }
     return render(request, "learning_logs/topic.html", context)
+
+@login_required
+def delete_topic(request, topic_id):
+    print(f'in delete_topic()')
+
+    topic = Topic.objects.get(id=topic_id)
+    if topic.owner != request.user:
+        raise Http404
+
+    if request.method == 'POST':
+        print(f'processing post request')
+        topic.delete()
+        return redirect('learning_logs:view_topics')
+
+    context = {
+        'topic': topic
+    }
+
+    return render(request, "learning_logs/delete_topic.html", context)
+
 
 @login_required
 def create_topic(request):
@@ -42,7 +67,9 @@ def create_topic(request):
         print(f'processing post request')
         form = TopicForm(request.POST)
         if form.is_valid():
-            form.save()
+            new_topic = form.save(commit=False)
+            new_topic.owner = request.user
+            new_topic.save()
             return redirect('learning_logs:view_topics')
         else:
             print('form not valid')
@@ -64,9 +91,14 @@ def create_entry(request, topic_id=0):
     print(f'in create_entry()')
     print(f'{request.method=}')
 
+    # Restrict the topic list to the users topics
+    queryset = Topic.objects.filter(owner=request.user)
+
     if request.method == 'POST':
         print(f'processing post request')
         form = EntryForm(request.POST)
+        form.fields['topic'].queryset = queryset
+
         if form.is_valid():
             form.save()
             # print(vars(form.cleaned_data['topic']))
@@ -77,6 +109,7 @@ def create_entry(request, topic_id=0):
     else:
         # No form data submitted, so create the form
         form = EntryForm(initial={'topic': topic_id})
+        form.fields['topic'].queryset = queryset
 
     # Display blank or invalid form
     context = {
@@ -92,6 +125,12 @@ def edit_entry(request, entry_id):
 
     entry = Entry.objects.get(id=entry_id)
 
+    if entry.topic.owner != request.user:
+        raise Http404
+
+    # Restrict the topic list to the users topics
+    queryset = Topic.objects.filter(owner=request.user)
+
     if request.method == 'POST':
         print(f'processing post request')
         form = EntryForm(instance=entry, data=request.POST)
@@ -104,6 +143,7 @@ def edit_entry(request, entry_id):
     else:
         # No form data submitted, so create the form
         form = EntryForm(instance=entry)
+        form.fields['topic'].queryset = queryset
 
     # Display blank or invalid form
     context = {

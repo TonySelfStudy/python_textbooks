@@ -1,0 +1,17 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block content %}
+
+<form method="POST">
+  {% csrf_token %}
+  <h1>Are you sure you want to delete the topic: "{{ topic }}"? </h1>
+  <p>Note, this will also delete any entries for this topic.</p>
+  <p><input type='submit' value='Yes' />
+    <a href="{% url 'learning_logs:view_topic' topic.id %}">Cancel Delete</a></p>
+</form>
+
+{% endblock content %}
+
+
+
+

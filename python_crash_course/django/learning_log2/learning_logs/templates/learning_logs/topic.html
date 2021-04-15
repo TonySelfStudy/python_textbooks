@@ -1,7 +1,10 @@
 {% extends 'learning_logs/base.html' %}
 
 {% block content %}
-<p>Entries available for {{ topic }}</p>
+<p>Entries available for {{ topic }}
+
+<a href="{% url 'learning_logs:delete_topic' topic.id %}">
+                (Delete Topic) </a> </p>
 
 <p> <a href="{% url 'learning_logs:create_entry_with_id' topic.id %}">
                 Create New Entry</a> </p>
