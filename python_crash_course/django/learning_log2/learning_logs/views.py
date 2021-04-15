@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.contrib.auth.decorators import login_required
+
 from .models import Topic, Entry
 from .forms import TopicForm, EntryForm
 
@@ -7,7 +9,7 @@ def index(request):
     print(f'in index()')
     return render(request, "learning_logs/index.html")
 
-
+@login_required
 def view_topics(request):
     print(f'in view_topics()')
     # queryset = Topic.objects.all()
@@ -18,6 +20,7 @@ def view_topics(request):
     }
     return render(request, "learning_logs/topics.html", context)
 
+@login_required
 def view_topic(request, topic_id):
     print(f'in view_topic()')
 
@@ -30,7 +33,7 @@ def view_topic(request, topic_id):
     }
     return render(request, "learning_logs/topic.html", context)
 
-
+@login_required
 def create_topic(request):
     print(f'in create_topic()')
     print(f'{request.method=}')
@@ -54,6 +57,7 @@ def create_topic(request):
     return render(request, "learning_logs/create_topic.html", context)
 
 
+@login_required
 def create_entry(request, topic_id=0):
     # topic_id is used to set the initial state of the topic combo box
 
@@ -80,6 +84,7 @@ def create_entry(request, topic_id=0):
     }
     return render(request, "learning_logs/create_entry.html", context)
 
+@login_required
 def edit_entry(request, entry_id):
 
     print(f'in edit_entry()')
