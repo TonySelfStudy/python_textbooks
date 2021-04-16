@@ -1,31 +1,43 @@
 {% extends 'learning_logs/base.html' %}
 
+{% load bootstrap4 %}
+
 {% block page_header %}
     <h1>Available Topics</h1>
 {% endblock page_header %}
 
 {% block content %}
-<ul>
-    {% for topic in topics %}
-        <li><h3><a href="{% url 'learning_logs:view_topic' topic.id %}">
-            {{ topic.text }}</a>
-        </h3></li>
-    {% empty %}
-        <li><h3>topics defined yet ...</h3></li>
-    {% endfor %}
-</ul>
+    {% buttons %}
 
-<h3>
-    <a href="{% url 'learning_logs:create_topic' %}">
-                Create New Topic</a>
-</h3>
+    <button type="button"
+            class="btn btn-primary"
+            onclick="location.href='{% url 'learning_logs:create_topic' %}'"
+            name='create_topic'>Create New Topic</button>
 
-{% if topics %}
-<h3>
-    <p> <a href="{% url 'learning_logs:create_entry' %}">
-                    Create New Entry</a> </p>
-</h3>
+    {% if topics %}
+    <button type="button"
+            class="btn btn-primary"
+            onclick="location.href='{% url 'learning_logs:create_entry' %}'"
+            name='create_topic'>Create New Entry</button>
+    {% else %}
+    <button type="button"
+            class="btn btn-primary"
+            disabled
+            onclick="location.href='{% url 'learning_logs:create_entry' %}'"
+            name='create_topic'>Create New Entry</button>
 
-{% endif %}
+    {% endif %}
+
+    {% endbuttons %}
+
+    <ul>
+        {% for topic in topics %}
+            <li><h3><a href="{% url 'learning_logs:view_topic' topic.id %}">
+                {{ topic.text }}</a>
+            </h3></li>
+        {% empty %}
+            <li><h3>No topics defined yet ...</h3></li>
+        {% endfor %}
+    </ul>
 
 {% endblock content %}

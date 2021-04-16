@@ -1,26 +1,42 @@
 {% extends 'learning_logs/base.html' %}
 
+{% load bootstrap4 %}
+
+{% block page_header %}
+    <h3>Topic {{ topic }} Entries</h3>
+{% endblock page_header %}
+
+
 {% block content %}
-<p>Entries available for {{ topic }}
 
-<a href="{% url 'learning_logs:delete_topic' topic.id %}">
-                (Delete Topic) </a> </p>
+{% buttons %}
+<button type="button"
+        class="btn btn-primary"
+        onclick="location.href='{% url 'learning_logs:create_entry_with_id' topic.id %}'"
+        name='create_new_entry'>Create New Entry</button>
 
-<p> <a href="{% url 'learning_logs:create_entry_with_id' topic.id %}">
-                Create New Entry</a> </p>
+<button type="button"
+        class="btn btn-primary"
+        onclick="location.href='{% url 'learning_logs:delete_topic' topic.id %}'"
+        name='delete_topic'>Delete This Topic</button>
+{% endbuttons %}
 
-<ul>
+
     {% for entry in entries %}
-        <li>
-            <p>{{ entry.date_added|date:'M d, Y H:i:s' }}</p>
-            <p>{{ entry.text|linebreaks }}</p>
-            <p> <a href="{% url 'learning_logs:edit_entry' entry.id %}">
-                Edit Entry</a> </p>
-        </li>
+        <div class="card mb-3">
+            <h4 class="card-header">
+                {{ entry.date_added|date:'M d, Y H:i:s' }}
+                <small> <a href="{% url 'learning_logs:edit_entry' entry.id %}">
+                    Edit Entry</a> </small>
+            </h4>
+            <div class="card-body">
+                <p>{{ entry.text|linebreaks }}</p>
+            </div>
+        </div>
     {% empty %}
-        <li>No entries for this topic defined yet ...</li>
+        <p>There are no entries for this topic yet.</p>
     {% endfor %}
-</ul>
+
 
 
 {% endblock content %}
