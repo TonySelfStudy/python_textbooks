@@ -16,7 +16,7 @@ def register(request):
         if form.is_valid():
             new_user = form.save()
             login(request, new_user)
-            return redirect('learning_logs:view_index')
+            return redirect('learning_logs:view_topics')
 
     # Display blank or invalid form
     context = {'form': form}
